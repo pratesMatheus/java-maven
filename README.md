@@ -152,6 +152,8 @@ Para isso, devemos procurar por: pom.xml e dentro do mesmo procurar por `depende
 
 <h2>Gerenciando dependências</h2>
 
+Quando o Maven executa algum tarefa e não encontra a dependência no repositório local o que acontece? = O Maven busca a dependência em um repositório remoto e faz download e armazena o componente no repositório local.
+
 <h3>Tipos de dependências</h3>
 
 - **Direta**: dependências declaradas no pom.xml
